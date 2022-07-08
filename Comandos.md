@@ -9,5 +9,5 @@
 | clear | Limpia la pantalla de la terminal | clear para limpiar la terminal de la máquina ubuntu cuando se han corrido muchos comandos. |
 | htop | muestra y gestiona las tareas con una interfaz más amigable | htop para visualizar el sistema ubuntu en tiempo real, desplazarse tanto vertical como horizontalmente, así como matar o reiniciar procesos. |
 | pstree |  Muestra un listado de procesos con una estructura en forma de árbol | pstree para verificar en el sistema de ubuntu la finalización de procesos tanto primario como secundarios. |
-| man ps | Permite verificar la documentación de ps y ver para qué sirve cada parámetro | man ps en la máquina de ubuntu para ver el documento de ayuda sobre los procesos en ejcución |
+| man ps | Permite verificar la documentación de ps y ver para qué sirve cada parámetro | man ps en la máquina de ubuntu para ver el documento de ayuda sobre los procesos en ejecución. |
 
