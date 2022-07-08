@@ -1,1 +1,1 @@
-##**Bitácora de comandos de Sistemas Operativos**
+## **Bitácora de comandos de Sistemas Operativos**
