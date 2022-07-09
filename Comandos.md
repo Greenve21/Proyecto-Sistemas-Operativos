@@ -10,4 +10,15 @@
 | htop | muestra y gestiona las tareas con una interfaz más amigable | htop para visualizar el sistema ubuntu en tiempo real, desplazarse tanto vertical como horizontalmente, así como matar o reiniciar procesos. |
 | pstree |  Muestra un listado de procesos con una estructura en forma de árbol | pstree para verificar en el sistema de ubuntu la finalización de procesos tanto primario como secundarios. |
 | man ps | Permite verificar la documentación de ps y ver para qué sirve cada parámetro | man ps en la máquina de ubuntu para ver el documento de ayuda sobre los procesos en ejecución. |
-
+| man ls | Muestra una página de ayuda o manual del comando ls para aprender a utilizarlo | man ls en la máquina de ubuntu para visualizar el manual del comando ls. |
+| ls /bin | muestra todo los ficheros y directorios se encuentran debajo del directorio /bin | ls /bin en la máquina de ubuntu para visualizar lo que se encuentra en el directorio /bin. |
+| ls -l | muestra los detalles con formato largo y en orde alfabético el contenido de un directorio | ls -l en la máquina de ubuntu para visualizar los detalles de los archivos txt y directorios. |
+| kill -9 ID_Proceso | Fuerza el cierre de un proceso y lo termina | kill -9 1773 para forzar el cierre del proceso 1173 en la máquina de ubuntu. |
+| ip addr | Permite verificar la dirección IP | ip addr para verificar la dirección IP 192.168.0... de la máquina ubuntu. |
+| sudo apt install openssh-server | Permite instalar openssh-server para realizar conexiones remotas | sudo apt install openssh-server para establecer conexión remota entre la máquina ubuntu y Termius. |
+| sudo apt update && sudo apt upgrade | Refresca los repositorios de software y actualiza el sistema | sudo apt update && sudo apt upgrade para refrescar los repositorios de software y actualizar la máquina ubuntu. |
+| ps-aux | grep "firefox" | 
+| mkdir + nombre del directorio | Crea un directorio o carpeta | mkdir Sistemas_Operativos para crear una carpeta o directorio con el nombre "Sistemas_Operativos" |
+| pwd | muestra la ruta del directorio actual | pwd para mostrar la ruta actual /home/kchavesg337 en la máquina ubuntu. |
+| cd + nombre de la carpeta | Dirige a la carpeta con el nombre indicado | cd Descargas para dirigirse a la carpeta Descargas contenida en la ruta actual. |
+| cd | Dirige al directorio personal | cd en la máquina ubuntu para dirigirse al usuario personal en home. |
