@@ -22,3 +22,4 @@
 | pwd | muestra la ruta del directorio actual | pwd para mostrar la ruta actual /home/kchavesg337 en la máquina ubuntu. |
 | cd + nombre de la carpeta | Dirige a la carpeta con el nombre indicado | cd Descargas para dirigirse a la carpeta Descargas contenida en la ruta actual. |
 | cd | Dirige al directorio personal | cd en la máquina ubuntu para dirigirse al usuario personal en home. |
+
