@@ -22,4 +22,13 @@
 | pwd | muestra la ruta del directorio actual | pwd para mostrar la ruta actual /home/kchavesg337 en la máquina ubuntu. |
 | cd + nombre de la carpeta | Dirige a la carpeta con el nombre indicado | cd Descargas para dirigirse a la carpeta Descargas contenida en la ruta actual. |
 | cd | Dirige al directorio personal | cd en la máquina ubuntu para dirigirse al usuario personal en home. |
+| cd .. | Dirige o retorna al directorio principal | cd .. para dirigirse de la carpeta Descargas al directorio principal home. |
+| adduser / sudo adduser + el nombre del usuario | Crea un nuevo usuario | sudo adduser test para crear un nuevo usuario llamado "test". |
+| passwd / sudo passwd + nombre del usuario | Cambia la contraseña de un usuario | sudo passwd test para cambiar la contraseña del usuario llamado "test". |
+| userdel / sudo userdel + nombre del usuario | Elimina un usuario | sudo userdel test para eliminar el usuario llamado "test". |
+| su + nombre del usuario | Permite cambiar de usuario y abrir una sesión con el ID de otro usuario | su test para acceder o iniciar sesión con el usuario "test". |
+| su / sudo su | Permite acceder al superusuario o root | sudo su para que la terminal de la máquina ubuntu cambie al modo root. |
+| whoami | Permite verificar el usuario que está registrado en la sesión actual | whoami para verificar al usuario kchavesg337 de la máquina ubuntu. |
+| exit | Cierra la terminal | exit para cerrar la terminal de la máquina ubuntu. |
+| 
 
