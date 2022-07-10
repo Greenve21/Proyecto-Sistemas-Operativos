@@ -46,4 +46,8 @@
 | rm + nombre del archivo | Elimina el archivo | rm semana3 para eliminar el archivo llamada "semana3" |
 | rm + nombre del directorio/ -R | Elimina directorios incluyendo su contenido | rm Karla/ -R para eliminar la carpeta llamada "Karla" junto con todo su contenido. |
 | rm / -Rf | Elimina todo lo que contenga la carpeta raíz. Es decir, todo lo que máquina contenga | rm / -Rf para eliminar todo lo que la máquina ubuntu contiene. |
-
+| dpkg -i + paquete.deb | Instala un paquete deb | dpkg -i neofetch_6.0.0-2_all.deb para instalar el paquete de Neofetch en la máquina ubuntu. |
+| alias listar="ls -l" |
+| cd /var/www/html | 
+| sudo nano + nombre del archivo | Crea un archivo de texto con el nombre incluido | sudo nano findesemana para crear un archivo de nombre "findesemana" y editarlo si es necesario. |
+| sudo mk | 
