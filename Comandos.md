@@ -17,7 +17,7 @@
 | ip addr | Permite verificar la dirección IP | ip addr para verificar la dirección IP 192.168.0... de la máquina ubuntu. |
 | sudo apt install openssh-server | Permite instalar openssh-server para realizar conexiones remotas | sudo apt install openssh-server para establecer conexión remota entre la máquina ubuntu y Termius. |
 | sudo apt update && sudo apt upgrade | Refresca los repositorios de software y actualiza el sistema | sudo apt update && sudo apt upgrade para refrescar los repositorios de software y actualizar la máquina ubuntu. |
-| ps-aux | grep "firefox" | 
+| ps-aux<img width="7" alt="Barra" src="https://user-images.githubusercontent.com/93564792/178131001-f2f92089-640f-4b53-892f-03edf1dfe46b.PNG">grep "firefox" | 
 | mkdir + nombre del directorio | Crea un directorio o carpeta | mkdir Sistemas_Operativos para crear una carpeta o directorio con el nombre "Sistemas_Operativos" |
 | pwd | muestra la ruta del directorio actual | pwd para mostrar la ruta actual /home/kchavesg337 en la máquina ubuntu. |
 | cd + nombre de la carpeta | Dirige a la carpeta con el nombre indicado | cd Descargas para dirigirse a la carpeta Descargas contenida en la ruta actual. |
@@ -40,4 +40,5 @@
 | head -n + número de línea + nombre del archivo | Permite verificar las primeras filas de un archivo de texto | head -n 10 semana3.txt para verificar las primeras 10 líneas del archivo de texto llamado semana3. |
 | tail -n + número de línea + nombre del archivo | Permite verificar las últimas filas de un archivo de texto | tail -n 10 semana3.txt para verificar las últimas 10 líneas del archivo de texto llamado semana3. |
 | tail -n + número de línea + nombre del archivo > nombre de archivo | Crea un nuevo archivo llamado "semana4" con las últimas 10 líneas del archivo de texto llamado "semana3" |
-| cat + nombre del archivo <img width="7" alt="Barra" src="https://user-images.githubusercontent.com/93564792/178131001-f2f92089-640f-4b53-892f-03edf1dfe46b.PNG">more | 
+| cat + nombre del archivo <img width="7" alt="Barra" src="https://user-images.githubusercontent.com/93564792/178131001-f2f92089-640f-4b53-892f-03edf1dfe46b.PNG">more | Permite desplazarse entre las páginas de un archivo | cat + nombre del archivo <img width="7" alt="Barra" src="https://user-images.githubusercontent.com/93564792/178131001-f2f92089-640f-4b53-892f-03edf1dfe46b.PNG">more para desplazarse entre las páginas del archivo llamada "semana3" |
+
