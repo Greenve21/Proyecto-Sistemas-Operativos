@@ -30,5 +30,10 @@
 | su / sudo su | Permite acceder al superusuario o root | sudo su para que la terminal de la máquina ubuntu cambie al modo root. |
 | whoami | Permite verificar el usuario que está registrado en la sesión actual | whoami para verificar al usuario kchavesg337 de la máquina ubuntu. |
 | exit | Cierra la terminal | exit para cerrar la terminal de la máquina ubuntu. |
+| nano | Permite crear / editar un archivo de texto | nano para crear y editar un nuevo archivo de texto en la máquina ubuntu. |
+| nano + nombre del archivo txt | Abre el archivo txt en modo edición | nano archivo.txt para abrir y editar en el archivo llamado "archivo". |
+| cat + nombre del archivo txt | Abre el archivo txt en modo lectura | cat archivo para abrir y leer el archivo llamada "archivo". |
+| cowsay + mensaje | Imprime el dibujo de una vaca con el mensaje asignado | cowsay Hello para mostrar el mensaje Hello en la terminal de la máquina ubuntu. |
+| history | Muestra el historial de comandos ingresados a la terminal | history para verificar todo el historial de comandos utilizados en la terminal de la máquina ubuntu. |
 | 
 
