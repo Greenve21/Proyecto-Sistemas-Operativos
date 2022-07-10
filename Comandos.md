@@ -33,7 +33,10 @@
 | nano | Permite crear / editar un archivo de texto | nano para crear y editar un nuevo archivo de texto en la máquina ubuntu. |
 | nano + nombre del archivo txt | Abre el archivo txt en modo edición | nano archivo.txt para abrir y editar en el archivo llamado "archivo". |
 | cat + nombre del archivo txt | Abre el archivo txt en modo lectura | cat archivo para abrir y leer el archivo llamada "archivo". |
-| cowsay + mensaje | Imprime el dibujo de una vaca con el mensaje asignado | cowsay Hello para mostrar el mensaje Hello en la terminal de la máquina ubuntu. |
+| cowsay + mensaje | Imprime el dibujo de una vaca con el mensaje asignado | cowsay Hello para mostrar el dibujo de la vaca con el mensaje Hello en la terminal de la máquina ubuntu. |
 | history | Muestra el historial de comandos ingresados a la terminal | history para verificar todo el historial de comandos utilizados en la terminal de la máquina ubuntu. |
-| 
+| history > nombre del archivo | Crea un archivo de texto con el historial de comandos utilizados en la terminal | history > semana3.txt para crear un archivo llamado semana3 en donde se guardarán todos los comandos utilizados en la terminal. |
+| ls > nombre del archivo | Crear un archivo de texto con el listado de directorios o carpetas del usuario | ls > directorios.txt para crear un archivo llamado directorios para guardar el listado de carpetas del usuario kchavesg337. |
+| head -n + número de línea + nombre del archivo | Permite verificar las primeras filas de un archivo de texto | head -n 10 semana3.txt para verificar las primeras 10 líneas del archivo de texto llamado semana3. |
+| tail -n + número de línea + nombre del archivo | Permite verificar las últimas filas de un archivo de texto | head -n 10 semana3.txt para verificar las últimas 10 líneas del archivo de texto llamado semana3. |
 
