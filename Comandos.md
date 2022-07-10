@@ -38,5 +38,7 @@
 | history > nombre del archivo | Crea un archivo de texto con el historial de comandos utilizados en la terminal | history > semana3.txt para crear un archivo llamado semana3 en donde se guardarán todos los comandos utilizados en la terminal. |
 | ls > nombre del archivo | Crear un archivo de texto con el listado de directorios o carpetas del usuario | ls > directorios.txt para crear un archivo llamado directorios para guardar el listado de carpetas del usuario kchavesg337. |
 | head -n + número de línea + nombre del archivo | Permite verificar las primeras filas de un archivo de texto | head -n 10 semana3.txt para verificar las primeras 10 líneas del archivo de texto llamado semana3. |
-| tail -n + número de línea + nombre del archivo | Permite verificar las últimas filas de un archivo de texto | head -n 10 semana3.txt para verificar las últimas 10 líneas del archivo de texto llamado semana3. |
-
+| tail -n + número de línea + nombre del archivo | Permite verificar las últimas filas de un archivo de texto | tail -n 10 semana3.txt para verificar las últimas 10 líneas del archivo de texto llamado semana3. |
+| tail -n + número de línea + nombre del archivo > nombre de archivo | Crea un nuevo archivo llamado "semana4" con las últimas 10 líneas del archivo de texto llamado "semana3" |
+| cat + nombre del archivo <img width="7" alt="Barra" src="https://user-images.githubusercontent.com/93564792/178131001-f2f92089-640f-4b53-892f-03edf1dfe46b.PNG">
+ more | 
