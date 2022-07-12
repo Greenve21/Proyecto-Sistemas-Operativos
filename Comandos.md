@@ -12,7 +12,7 @@
 | man ps | Permite verificar la documentación de ps y ver para qué sirve cada parámetro | man ps en la máquina de ubuntu para ver el documento de ayuda sobre los procesos en ejecución. |
 | man ls | Muestra una página de ayuda o manual del comando ls para aprender a utilizarlo | man ls en la máquina de ubuntu para visualizar el manual del comando ls. |
 | ls /bin | muestra todo los ficheros y directorios se encuentran debajo del directorio /bin | ls /bin en la máquina de ubuntu para visualizar lo que se encuentra en el directorio /bin. |
-| ls -l | muestra los detalles con formato largo y en orde alfabético el contenido de un directorio | ls -l en la máquina de ubuntu para visualizar los detalles de los archivos txt y directorios. |
+| ls -l | muestra los detalles con formato largo y en orden alfabético el contenido de un directorio además de mostrar los permisos que el usuario tiene para cada uno de los directorios | ls -l en la máquina de ubuntu para visualizar los detalles de los archivos txt, directorios y permisos que poseee el usuario kchavesg337. |
 | kill -9 ID_Proceso | Fuerza el cierre de un proceso y lo termina | kill -9 1773 para forzar el cierre del proceso 1173 en la máquina de ubuntu. |
 | ip addr | Permite verificar la dirección IP | ip addr para verificar la dirección IP 192.168.0... de la máquina ubuntu. |
 | sudo apt install openssh-server | Permite instalar openssh-server para realizar conexiones remotas | sudo apt install openssh-server para establecer conexión remota entre la máquina ubuntu y Termius. |
@@ -39,7 +39,7 @@
 | ls > nombre del archivo | Crear un archivo de texto con el listado de directorios o carpetas del usuario | ls > directorios.txt para crear un archivo llamado directorios para guardar el listado de carpetas del usuario kchavesg337. |
 | head -n + número de línea + nombre del archivo | Permite verificar las primeras filas de un archivo de texto | head -n 10 semana3.txt para verificar las primeras 10 líneas del archivo de texto llamado semana3. |
 | tail -n + número de línea + nombre del archivo | Permite verificar las últimas filas de un archivo de texto | tail -n 10 semana3.txt para verificar las últimas 10 líneas del archivo de texto llamado semana3. |
-| tail -n + número de línea + nombre del archivo > nombre de archivo | Crea un nuevo archivo llamado "semana4" con las últimas 10 líneas del archivo de texto llamado "semana3" |
+| tail -n + número de línea + nombre del archivo > nombre de archivo | Crea un nuevo archivo con las últimas 10 líneas del archivo de texto que contiene el historial de comandos | tail -n 10 semana3.txt semana4.txt para crear un nuevo archivo llamado "semana4" con las últimas 10 líneas del archivo de texto llamado "semana3" |
 | cat + nombre del archivo <img width="7" alt="Barra" src="https://user-images.githubusercontent.com/93564792/178131001-f2f92089-640f-4b53-892f-03edf1dfe46b.PNG">more | Permite desplazarse entre las páginas de un archivo | cat + nombre del archivo <img width="7" alt="Barra" src="https://user-images.githubusercontent.com/93564792/178131001-f2f92089-640f-4b53-892f-03edf1dfe46b.PNG">more para desplazarse entre las páginas del archivo llamada "semana3" |
 | cp + nombre del archivo + nombre de carpeta/ | Copia un archivo txt en una carpeta creada | cp semana3.txt Karla/ para copar el archivo llamada "semana3" en la carpeta creada de nombre "Karla" |
 | mv + nombre del archivo + nombre de carpeta/ | Mueve un archivo txt o directorio de una ruta original a una nueva | mv semana3.txt Karla/ para mover el archivo de nombre "semana3" ubicado en la capeta "Carpeta personal" a la nueva carpeta de nombre "Karla" |
@@ -48,6 +48,9 @@
 | rm / -Rf | Elimina todo lo que contenga la carpeta raíz. Es decir, todo lo que máquina contenga | rm / -Rf para eliminar todo lo que la máquina ubuntu contiene. |
 | dpkg -i + paquete.deb | Instala un paquete deb | dpkg -i neofetch_6.0.0-2_all.deb para instalar el paquete de Neofetch en la máquina ubuntu. |
 | alias listar="ls -l" |
-| cd /var/www/html | 
+| cd /var/www/html | Permite acceder a la carpeta raíz predeterminada del servidor web | cd /var/www/html para acceder a la carpeta raíz del servidor web en la máquina ubuntu de AWS | 
 | sudo nano + nombre del archivo | Crea un archivo de texto con el nombre incluido | sudo nano findesemana para crear un archivo de nombre "findesemana" y editarlo si es necesario. |
-| sudo mk | 
+| sudo mkdir + nombre de la carpeta SFTP | Crea un nuevo directorio o carpeta en el servidor local y remoto | mkdir Users en Termius para crear directorio de nombre "Users" en la máquina ubuntu y transferir archivos. |
+| sudo chmod + código + nombre de archivo o directorio | Proporciona permisos de ejecución a un archivo a directorio | sudo chmod 777 semana4.txt para dar permisos a los usuarios para leer, escribir y ejecutar en el archivo semana4.txt |
+| df -h | muestra un listado de de las particiones montadas | df -h para obtener una lista de los discos duros montados en la máquina ubuntu. |
+| sudo cat /etc/shadow | Recopila las contraseñas de los usuarios del sistema | sudo cat /etc/shadow para recopilar las contraseñas de los usuarios de la máquina ubuntu. |
