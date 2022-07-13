@@ -54,3 +54,8 @@
 | sudo chmod + código + nombre de archivo o directorio | Proporciona permisos de ejecución a un archivo a directorio | sudo chmod 777 semana4.txt para dar permisos a los usuarios para leer, escribir y ejecutar en el archivo semana4.txt |
 | df -h | muestra un listado de de las particiones montadas | df -h para obtener una lista de los discos duros montados en la máquina ubuntu. |
 | sudo cat /etc/shadow | Recopila las contraseñas de los usuarios del sistema | sudo cat /etc/shadow para recopilar las contraseñas de los usuarios de la máquina ubuntu. |
+| sudo su | Permite pasar al modo superusuario o root | sudo su para pasar del usuario kchavesg337 al usuario root. |
+| ls + nombre de archivo o directorio -l | Brinda información sobre los permisos que tiene root o un usuario a un archivo o directorio | ls semana4.txt -l para verificar los permisos que tiene kchavesg337 en el archivo de nombre "semana4.txt" |
+| sudo chmod +x + archivo txt / directorio / script | Permite conceder permisos de ejecución | sudo chmod +x semana4.txt para conceder permisos de ejecución en el archivo de nombre "semana4.txt" |
+| du -h | Proporciona información sobre el tamaño de los archivo | du -h para verificar el tamaño de los archivos de la máquina ubuntu. |
+|
