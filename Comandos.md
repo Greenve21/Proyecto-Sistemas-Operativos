@@ -62,4 +62,5 @@
 | file + nombre de archivo | Indica el formato o tipo de archivo o directorio | file semana4.txt para verificar el tipo de archivo que es. | 
 | dd if=/dev/urandom of=archive.bin count + tamaño del archivo | Permite dañar un archivo | dd if=/dev/urandom of=archive.bin count 500000 para dañar un archivo de la máquina ubuntu. |
 | sudo chown + usuario + nombre de archivo o directorio | Permite cambiar el dueño de un archivo o directorio | sudo chown kchavesg337 semana4.txt para cambiar el dueños del archivo llamado "semana4.txt" |
-| df -h | 
+| sudo apt | Muestra información con descripción sobre apt como definición y órdenes más utilizadas | sudo apt en la máquina ubuntu para verificar las características de apt. |
+
