@@ -17,7 +17,7 @@
 | ip addr | Permite verificar la dirección IP | ip addr para verificar la dirección IP 192.168.0... de la máquina ubuntu. |
 | sudo apt install openssh-server | Permite instalar openssh-server para realizar conexiones remotas | sudo apt install openssh-server para establecer conexión remota entre la máquina ubuntu y Termius. |
 | sudo apt update && sudo apt upgrade | Refresca los repositorios de software y actualiza el sistema | sudo apt update && sudo apt upgrade para refrescar los repositorios de software y actualizar la máquina ubuntu. |
-| ps-aux <img width="7" alt="Barra" src="https://user-images.githubusercontent.com/93564792/178131001-f2f92089-640f-4b53-892f-03edf1dfe46b.PNG">grep "firefox" | 
+| ps-aux <img width="7" alt="Barra" src="https://user-images.githubusercontent.com/93564792/178131001-f2f92089-640f-4b53-892f-03edf1dfe46b.PNG">grep + proceso | Realiza la búsqueda del proceso y lo muestra | ps-aux <img width="7" alt="Barra" src="https://user-images.githubusercontent.com/93564792/178131001-f2f92089-640f-4b53-892f-03edf1dfe46b.PNG">grep "firefox"
 | mkdir + nombre del directorio | Crea un directorio o carpeta | mkdir Sistemas_Operativos para crear una carpeta o directorio con el nombre "Sistemas_Operativos" |
 | pwd | muestra la ruta del directorio actual | pwd para mostrar la ruta actual /home/kchavesg337 en la máquina ubuntu. |
 | cd + nombre de la carpeta | Dirige a la carpeta con el nombre indicado | cd Descargas para dirigirse a la carpeta Descargas contenida en la ruta actual. |
@@ -63,4 +63,5 @@
 | dd if=/dev/urandom of=archive.bin count + tamaño del archivo | Permite dañar un archivo | dd if=/dev/urandom of=archive.bin count 500000 para dañar un archivo de la máquina ubuntu. |
 | sudo chown + usuario + nombre de archivo o directorio | Permite cambiar el dueño de un archivo o directorio | sudo chown kchavesg337 semana4.txt para cambiar el dueños del archivo llamado "semana4.txt" |
 | sudo apt | Muestra información con descripción sobre apt como definición y órdenes más utilizadas | sudo apt en la máquina ubuntu para verificar las características de apt. |
+| pstree | Muestra un listado de procesos dispuestos en una estructura de árbol mostrando las relaciones padre-hijo entre procesos. | pstree en la máquina ubuntu para verificar procesos en estructura de árbol |
 
