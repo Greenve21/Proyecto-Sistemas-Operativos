@@ -47,7 +47,6 @@
 | rm + nombre del directorio/ -R | Elimina directorios incluyendo su contenido | rm Karla/ -R para eliminar la carpeta llamada "Karla" junto con todo su contenido. |
 | rm / -Rf | Elimina todo lo que contenga la carpeta raíz. Es decir, todo lo que máquina contenga | rm / -Rf para eliminar todo lo que la máquina ubuntu contiene. |
 | dpkg -i + paquete.deb | Instala un paquete deb | dpkg -i neofetch_6.0.0-2_all.deb para instalar el paquete de Neofetch en la máquina ubuntu. |
-| alias listar="ls -l" |
 | cd /var/www/html | Permite acceder a la carpeta raíz predeterminada del servidor web | cd /var/www/html para acceder a la carpeta raíz del servidor web en la máquina ubuntu de AWS | 
 | sudo nano + nombre del archivo | Crea un archivo de texto con el nombre incluido | sudo nano findesemana para crear un archivo de nombre "findesemana" y editarlo si es necesario. |
 | sudo mkdir + nombre de la carpeta SFTP | Crea un nuevo directorio o carpeta en el servidor local y remoto | mkdir Users en Termius para crear directorio de nombre "Users" en la máquina ubuntu y transferir archivos. |
@@ -64,4 +63,16 @@
 | sudo chown + usuario + nombre de archivo o directorio | Permite cambiar el dueño de un archivo o directorio | sudo chown kchavesg337 semana4.txt para cambiar el dueños del archivo llamado "semana4.txt" |
 | sudo apt | Muestra información con descripción sobre apt como definición y órdenes más utilizadas | sudo apt en la máquina ubuntu para verificar las características de apt. |
 | pstree | Muestra un listado de procesos dispuestos en una estructura de árbol mostrando las relaciones padre-hijo entre procesos. | pstree en la máquina ubuntu para verificar procesos en estructura de árbol |
-
+| sudo pacman -Syuu | Descarga, sincroniza y actualiza la base de datos de paquetes. | sudo pacman -Syuu en la máquina Manjaro para descargar, sincronizar y actualizar la base de datos de paquetes |
+| sudo pacman -S unrar zip unzip p7zip gzip bzip2 | Instala nuevos paquetes para comprimir y descomprimir archivos | sudo pacman -S unrar zip unzip p7zip gzip bzip2 en la máquina de Manjaro para instalar zip unzip p7zip gzip bzip2 |
+| sudo pacman -S yay / sudo yay -S --needed base-devel | Instala yay, asistente de AUR en distros basadas en Arch Linux e instala el Repositorio AUR | sudo pacman -S yay / sudo yay -S --needed base-devel para instalar el Repositorio AUR en máquina de Manjaro y tener acceso a otros paquetes de software |
+| yay -S google-chrome | Instala google-chrome por medio del instalador de paquetes yay | yay -S google-chrome para instalar Google Chrome en la máquina de Manjaro |
+| sudo pacman -S apache | Instala el servidor web Apache | sudo pacman -S apache para instalar el servidor web en la máquina de Manjaro |
+| uname -a | Muestra el kernel que está utilizando el SO | uname -a para mostrar el kernel que está utilizando la máquina de Manjaro |
+| sudo useradd -m nombredeusuario -G wheel -p passworddelusuario | Crea nuevos usuarios con sus respectivas contraseñas | sudo useradd -m gatito1 -G wheel -p 1234 para crear nuevo usuario en la máquina de Manjaro |
+| cp -rv /etc/letra* $HOME/directorio 1> $HOME/dir003/directorio/nombre de archivo | Copia recursivamente desde /etc todos los archivos y directorios cuyo nombre inicie con una determinada letra, en el directorio indicado y el archivo indicado | cp -rv /etc/a* $HOME/dir004 1> $HOME/dir003/dircuatro/archivo2 para copiar todos los archivos y directorios cuyo nombre inicie con la letra a en en el directorio dir004 y en el archivo de nombre archivo2 |
+| ls -l $HOME 1> $HOME/ruta/nombre de archivo | Muestra un listado en orde alfabético de los directorios que se encuentran en /home además de los permisos que el usuario tiene para cada directorio y lo copia a un archivo de texto | ls -l $HOME 1> $HOME/dir003/dircuatro/archivo3 |
+| cp /etc/profile $HOME/ruta/ | Copia en un archivo de texto la información del archivo perfil | cp /etc/profile $HOME/dir003/dircuatro/
+| touch + nombre del archivo | Crear un archivo de texto sin abrirlo en modo edición | touch archivo1 |
+| cp -rv /etc/letra* $HOME/directorio | Copia recursivamente desde /etc todos los archivos o directorios cuyo nombre comience con con una determinada letra hacia un determinado directorio | cp -rv /etc/a* $HOME/dirdos | 
+| mv letra*/ /home/usuario/directorio/ | Mueve recursivamente solamente las carpetas de un determinado directorio cuyo nombre comience con una determinada letra hacia otro directorio | mv f*/ /home/kchavesg337/dir004/ | 
