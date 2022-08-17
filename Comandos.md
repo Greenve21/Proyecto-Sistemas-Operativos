@@ -83,5 +83,19 @@
 | docker search ubuntu | Busca imágenes | docker search ubuntu para realizar búsquedas de imágenes en Ubuntu |
 | docker pull + nombre de la imagen | Instala imágenes | docker pull ubuntu |
 | sudo docker images | Permite ver las imágenes instaladas | sudo docker images para ver las imagenes que se encuentran instaladas en ubuntu |
-
-| Docker image rm + nombre de la imagen | Elimina imágenes de Docker |  
+| cat /etc/os-release | Muestra información sobre la distribución contenida en el fichero | cat /etc/os-release para verificar la distribución en la máquina Ubuntu |
+| sudo apt install apcalc | Instala la calculadora Apcalc | sudo apt install apcalc para instalar Apcalc en la máquina Ubuntu y realizar operaciones matemáticas |
+| sudo docker ps -a | Permite ver el estado de las imágenes de docker | sudo docker ps -a para verificar el estado de las imágenes de docker en la máquina Ubuntu |
+| sudo docker start + indentificador | Permite ejecutar y poner en funcionamiento el contenedor que esté detenido | sudo docker start d9b100f2f636 |
+| docker stop container-id | Detiene el contenedor | docker stop 9a3d54ec6631 |
+| sudo docker login -u usuario_dockerhub | Inicia sesión en la terminal con el usuario de docker hub | sudo docker login -u kchavesg337 |
+| sudo docker commit + identificador / sudo docker push docker-registry-username/docker-image-name | Realiza un push a la cuenta de DockerHub | sudo docker commit b7dc036f2c99 / sudo docker push docker-registry-kchavesg337/Ubuntu |
+| docker rmi Image Image | Elimina imágenes de Docker | docker rmi Image Ubuntu |
+| docker rm ID | Elimina contenedores | docker rm b7dc036f2c99 |
+| docker run --rm image_name | Elimina un contenedor después de cerrado | docker run --rm Ubuntu |
+| sudo docker rm $(sudo docker ps -a -f status=exited -q) | Elimina todos los contenedores con estado “Exited (0)” | sudo docker rm $(sudo docker ps -a -f status=exited -q) para eliminar todos los contenedores que están exited en la máquina de Ubuntu |
+| docker pull portainer/portainer-ce:latest | Permite obtener la imagen docker de Portainer | docker pull portainer/portainer-ce:latest en máquina Ubuntu para obtener las imágenes más recientes |
+| docker volume create portainer_data | Crea un volumen donde se almacenarán los datos de configuración de Portainer | docker volume create portainer_data para crear volumen y almacenar datos de configuración |
+| docker run -it + nombre de contenedor | Permite ejecutar el contenedor | docker run -it kalilinux/kali-rolling |
+| docker stats | Permite verificar los contenedores que estén en ejecución | docker stats los contenedores que estén en ejecución y la memoria que están consumiendo |
+| sudo systemctl stop docker | Detiene el contenedor | sudo systemctl stop Ubuntu |
