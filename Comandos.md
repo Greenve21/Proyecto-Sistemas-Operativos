@@ -76,3 +76,12 @@
 | touch + nombre del archivo | Crear un archivo de texto sin abrirlo en modo edición | touch archivo1 |
 | cp -rv /etc/letra* $HOME/directorio | Copia recursivamente desde /etc todos los archivos o directorios cuyo nombre comience con con una determinada letra hacia un determinado directorio | cp -rv /etc/a* $HOME/dirdos | 
 | mv letra*/ /home/usuario/directorio/ | Mueve recursivamente solamente las carpetas de un determinado directorio cuyo nombre comience con una determinada letra hacia otro directorio | mv f*/ /home/kchavesg337/dir004/ | 
+| sudo apt-get install docker-ce docker-ce-cli containerd.io docker-compose | Instala el docker | sudo apt-get install docker-ce docker-ce-cli containerd.io docker-compose para instalar docker en la máquina Ubuntu |
+| sudo usermod -aG docker ${USER} / su - ${USER} | Ejecuta el docker | sudo usermod -aG docker ${USER} / su - ${USER} para ejecutar el docker en la máquina Ubuntu |
+|  docker run hello-world | Verifica que funcione el comando "hello-world" |  docker run hello-world en la máquina Ubuntu para verificar que el docker funciona. |
+| sudo systemctl start docker / sudo systemctl enable docker | Inicia el Daemon | sudo systemctl start docker / sudo systemctl enable docker en la máquina Ubuntu para iniciar el Daemon |
+| docker search ubuntu | Busca imágenes | docker search ubuntu para realizar búsquedas de imágenes en Ubuntu |
+| docker pull + nombre de la imagen | Instala imágenes | docker pull ubuntu |
+| sudo docker images | Permite ver las imágenes instaladas | sudo docker images para ver las imagenes que se encuentran instaladas en ubuntu |
+
+| Docker image rm + nombre de la imagen | Elimina imágenes de Docker |  
