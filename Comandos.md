@@ -98,4 +98,4 @@
 | docker volume create portainer_data | Crea un volumen donde se almacenarán los datos de configuración de Portainer | docker volume create portainer_data para crear volumen y almacenar datos de configuración |
 | docker run -it + nombre de contenedor | Permite ejecutar el contenedor | docker run -it kalilinux/kali-rolling |
 | docker stats | Permite verificar los contenedores que estén en ejecución | docker stats los contenedores que estén en ejecución y la memoria que están consumiendo |
-| sudo systemctl stop docker | Detiene el contenedor | sudo systemctl stop Ubuntu |
+| sudo systemctl stop docker | Detiene el contenedor | sudo systemctl stop Ubuntu | 
